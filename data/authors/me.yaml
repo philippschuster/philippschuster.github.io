@@ -1,0 +1,76 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+
+name:
+  display: Philipp Schuster
+  given: Philipp
+  family: Schuster
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''  # optional
+
+# role: Chair holder Dept. III – Chair of Finance
+
+bio: |
+  Welcome! I am a Professor of Finance at University of Stuttgart, Germany. My research focuses on empirical capital markets, asset pricing, market microstructure, and applications of the blockchain technology. Current projects investigate liquidity, frictions, and intermediation in bond and options markets, mutual funds and ETFs, and decentralized exchanges.
+
+affiliations:
+  - name: Profesor of Finance, University of Stuttgart – Institute of Business Administration (BWI), Chair of Finance
+    url: https://www.bwi.uni-stuttgart.de/en/institute/team/Schuster-00005
+
+links:
+  - icon: at-symbol
+    url: mailto:philipp.schuster@bwi.uni-stuttgart.de
+    label: Email
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/philipp-schuster-587733225/
+    label: LinkedIn
+  - icon: map-pin
+    url: https://www.bwi.uni-stuttgart.de/en/institute/team/Schuster-00005
+    label: Keplerstr. 17, 70174 Stuttgart (Room 7.036)
+  - icon: academicons/ssrn
+    url: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1486766
+    label: SSRN
+
+interests:
+  - Finance
+  - Capital markets
+  - Bonds & bond liquidity
+  - Options markets
+  - Market frictions & intermediation
+  - Blockchain in finance
+
+# Optional: if you want these to appear in the resume sections later, keep them.
+education:
+  - degree: Habilitation (venia legendi), Business Administration
+    institution: Karlsruhe Institute of Technology (KIT)
+    start: 2019-01-01
+    end: 2019-12-31
+  - degree: Dr. rer. pol. (summa cum laude)
+    institution: Karlsruhe Institute of Technology (KIT)
+    start: 2010-01-01
+    end: 2014-12-31
+  - degree: M.Sc. Industrial Engineering
+    institution: Georgia Institute of Technology
+    start: 2007-01-01
+    end: 2008-12-31
+  - degree: Diploma, Industrial Engineering and Management
+    institution: Universität Karlsruhe (TH)
+    start: 2004-01-01
+    end: 2009-12-31
+
+experience:
+  - role: Chair holder Dept. III – Chair of Finance
+    org: University of Stuttgart
+    start: 2020-01-01
+    summary: |
+      Chair holder, Institute of Business Administration, Dept. III – Chair of Finance.
+  - role: Head of Junior Research Group
+    org: Karlsruhe Institute of Technology (KIT)
+    start: 2017-01-01
+    end: 2020-12-31
+  - role: Visiting Scholar
+    org: College of William and Mary
+    start: 2014-01-01
+    end: 2014-12-31

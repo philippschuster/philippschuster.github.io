@@ -1,0 +1,74 @@
+/* Hide theme pack selector + dark mode toggle (Marcel-style clean header) */
+.theme-toggle,
+select[onchange*="data-theme-pack"] {
+  display: none !important;
+}
+
+/* Widen all Markdown sections */
+.blox-markdown .max-w-prose,
+.blox-markdown .prose.max-w-prose {
+  max-width: 60rem;
+}
+
+/* Reduce vertical padding between homepage sections */
+.hbb-section {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+/* Keep content width consistent across sections */
+#working-papers .max-w-prose,
+#publications .max-w-prose,
+#teaching .max-w-prose,
+#vita .max-w-prose,
+#contact .max-w-prose,
+#working-papers .prose.max-w-prose,
+#publications .prose.max-w-prose,
+#teaching .prose.max-w-prose,
+#vita .prose.max-w-prose,
+#contact .prose.max-w-prose {
+  max-width: 60rem;
+}
+
+/* Markdown blocks: don't shrink-to-content (items-center causes varying widths) */
+.blox-markdown > div.flex {
+  /* keep your preferred content width */
+  max-width: 60rem !important;
+
+  /* override Tailwind's items-center */
+  align-items: stretch !important;
+}
+
+/* Make the prose box fill the available width */
+.blox-markdown > div.flex > div.prose {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Optional: unify bullet indentation everywhere */
+.blox-markdown ul {
+  padding-left: 1.25rem !important;
+  margin-left: 0 !important;
+  list-style-position: outside;
+}
+}
+
+/* Contact map */
+.map-embed {
+  width: 100%;
+  max-width: 60rem;   /* keep consistent with your other sections */
+  margin: 1rem auto 0;
+}
+
+.map-embed iframe {
+  width: 100%;
+  height: 360px;
+  border: 0;
+  border-radius: 12px;
+}
+
+.map-embed .map-link {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+}

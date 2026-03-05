@@ -1,0 +1,13 @@
+main:
+  - name: Bio
+    url: /
+    weight: 10
+  - name: Working papers
+    url: /#working-papers
+    weight: 30
+  - name: Publications
+    url: /#publications
+    weight: 40
+  - name: Contact
+    url: /#contact
+    weight: 60
