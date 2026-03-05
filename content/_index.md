@@ -83,7 +83,7 @@ sections:
       subtitle: ''
       text: |-
         **Prof. Dr. Philipp Schuster**  
-        Dept. III – Chair of Finance, Institute of Business Administration, University of Stuttgart  
+        Institute of Business Administration, Dept. III – Chair of Finance, University of Stuttgart  
         Keplerstr. 17, 70174 Stuttgart, Germany (Room 7.036)  
         Tel.: +49 711 685 86001  
         Office hours: Wednesdays 10:00–11:00 (on request)
