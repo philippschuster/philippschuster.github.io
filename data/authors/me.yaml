@@ -16,7 +16,7 @@ bio: |
   Welcome! I am a Professor of Finance at University of Stuttgart, Germany. My research focuses on empirical capital markets, asset pricing, market microstructure, and applications of the blockchain technology. Current projects investigate liquidity, frictions, and intermediation in bond and options markets, mutual funds and ETFs, and decentralized exchanges.
 
 affiliations:
-  - name: Profesor of Finance, University of Stuttgart – Institute of Business Administration (BWI), Chair of Finance
+  - name: University of Stuttgart – Institute of Business Administration (BWI), Chair of Finance
     url: https://www.bwi.uni-stuttgart.de/en/institute/team/Schuster-00005
 
 links:
@@ -26,12 +26,16 @@ links:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/philipp-schuster-587733225/
     label: LinkedIn
-  - icon: map-pin
-    url: https://www.bwi.uni-stuttgart.de/en/institute/team/Schuster-00005
-    label: Keplerstr. 17, 70174 Stuttgart (Room 7.036)
+  - icon: custom/google-scholar
+    url: "https://scholar.google.com/citations?user=1UIH7uQAAAAJ&hl=de"
+    label: Google Scholar
   - icon: academicons/ssrn
     url: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1486766
     label: SSRN
+  - icon: www
+    icon_pack: custom/www
+    url: "https://www.bwi.uni-stuttgart.de/en/institute/team/Schuster-00005/"
+    label: "WWW"
 
 interests:
   - Finance
