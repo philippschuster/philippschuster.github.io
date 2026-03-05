@@ -72,3 +72,51 @@ select[onchange*="data-theme-pack"] {
   text-align: center;
   font-size: 0.95rem;
 }
+
+/* Uppercase the left navbar brand text */
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+/* Bio ("Welcome...") is inside a centered flex container, so give the bio text its own width */
+#section-resume-biography .bio-text {
+  width: 100%;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Also make the wrapper take full width so it doesn't shrink */
+#section-resume-biography .prose {
+  width: 100%;
+  max-width: none !important;
+}
+
+/* --- Fix alignment of the social icons row --- */
+.network-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* optional */
+}
+
+.network-icon li {
+  display: flex;
+}
+
+.network-icon li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.network-icon li a svg {
+  display: block;          /* avoids baseline drop */
+}
+
+/* --- If Google Scholar is still slightly low, nudge just that one --- */
+.network-icon a[aria-label="Google Scholar"] svg {
+  transform: translateY(-2px);
+}
