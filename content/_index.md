@@ -69,10 +69,21 @@ sections:
         - **Since 2020:** Chair of Department III (Finance), University of Stuttgart
         - **2019:** Habilitation (venia legendi), Karlsruhe Institute of Technology (KIT)
         - **2017–2020:** Head of Junior Research Group, KIT
-        - **2014:** Visiting Scholar, College of William and Mary
-        - **2010–2014:** Dr. rer. pol., KIT
+        - **2010–2014:** Ph.D. in Finance (Dr. rer. pol.),
         - **2007–2008:** M.Sc. Industrial Engineering, Georgia Institute of Technology
-        - **2004–2009:** Diploma in Industrial Engineering and Management, Universität Karlsruhe (TH)
+        - **2004–2009:** Diploma in Business Engineering and Management, Dipl.-Wi.-Ing., Karlsruhe Institute of Technology (KIT)
+    design:
+      columns: '1'
+
+  - block: markdown
+    id: Academic Visits
+    content:
+      title: Academic Visits
+      subtitle: ''
+      text: |-
+        - Rotterdam School of Management, Erasmus University Rotterdam
+        - Mason School of Business, College of William & Mary, Williamsburg
+        - Center for Financial Frictions, Copenhagen Business School
     design:
       columns: '1'
 
