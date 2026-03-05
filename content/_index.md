@@ -39,6 +39,7 @@ sections:
         - **Once a Trader, Always a Trader: The Role of Traders in Fund Management** (with Gjergji Cici, Franziska Weishaupt), 2026. [SSRN](https://ssrn.com/abstract=4702553)
         - **Option Trade Classification: Limits, Corrections, and Implications for Stock Returns** (with Caroline Grauer, Marliese Uhrig-Homburg), 2025. [SSRN](https://ssrn.com/abstract=4098475)
         - **Expected Bond Liquidity** (with Marcel Müller, Michael Reichenbacher, Marliese Uhrig-Homburg), 2025. [SSRN](https://ssrn.com/abstract=3642604) · [Code](https://www.dropbox.com/scl/fi/lvbco4lpj0gfuljjowrcs/ExpectedBondLiquidity_Code.zip?dl=0&rlkey=2zkhzgsrwykc981ps6r9dbujr) · [Data](https://www.dropbox.com/scl/fi/wmdfoa31l7yaus9d5lgmg/ExpectedBondLiquidity_Data.zip?dl=0&rlkey=8ztd6zwrkh94pcuzopwpb6qmk)
+        - **Liquidity Forecasts and Stock Returns** (with Claus Schmitt), 2023. [SSRN](https://ssrn.com/abstract=4389864)
     design:
       columns: '1'
 
