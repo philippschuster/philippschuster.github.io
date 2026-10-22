@@ -32,6 +32,8 @@ cascade:
 ## ADVANCED
 ############################
 
+# Remove obsolete generated pages and old search indexes on each build.
+cleanDestinationDir: true
 build:
   writeStats: true
 enableGitInfo: false
@@ -64,6 +66,7 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+# This one-page site does not publish taxonomy archives.
 disableKinds:
   - taxonomy
   - term

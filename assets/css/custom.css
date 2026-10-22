@@ -120,9 +120,3 @@ select[onchange*="data-theme-pack"] {
 .network-icon a[aria-label="Google Scholar"] svg {
   transform: translateY(-2px);
 }
-
-/* Hide search button + search modal */
-[data-search-toggle],
-[x-data*="searchModal"] {
-  display: none !important;
-}
