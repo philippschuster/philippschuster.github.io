@@ -7,6 +7,7 @@ on:
   # Standalone trigger for PR validation
   pull_request:
     branches: ['main']
+    types: [opened, synchronize, reopened, ready_for_review]
   # Reusable workflow trigger - called by deploy.yml
   workflow_call:
     outputs:
@@ -31,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     outputs:
-      artifact-id: ${{ steps.upload.outputs.artifact-id }}
+      artifact-id: ${{ steps.upload.outputs.artifact_id }}
     steps:
     - name: Checkout
       uses: actions/checkout@v4
